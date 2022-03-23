@@ -45,8 +45,6 @@ class BankAccount {
 public class Main {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int ok = 1;
 
         BankAccount bankA = new BankAccount();
         BankAccount bankB = new BankAccount();
@@ -59,7 +57,10 @@ public class Main {
 
 
 
-/*        do{
+/*
+        Scanner sc = new Scanner(System.in);
+        int ok = 1;
+        do{
             int choice;
             System.out.println("What do yo wish to do?\nSet balance(1)\nDeposit(2)\nWithdraw(3)\nTransfer(4)");
             choice = sc.nextInt();
