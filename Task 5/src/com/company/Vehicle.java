@@ -20,6 +20,8 @@ public class Vehicle {
         this.mass = mass;
     }
 
+    public void accelerate (int speed) {this.speed+=speed;}
+
     public void printVehicleDetails() {
         System.out.println("Speed: " + speed + " Mass: " + mass);
     }

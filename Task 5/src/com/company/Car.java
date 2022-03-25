@@ -23,6 +23,8 @@ public class Car extends Vehicle {
         this.make = make;
     }
 
+    public void changeGear(int gear) {this.gear += gear;}
+
     public void printCarDetails() {
         System.out.println("Speed: " + speed + " Mass: " + mass + " Gear: " + gear + " Make: " + make);
     }
